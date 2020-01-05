@@ -20,9 +20,9 @@
 * 通过网址后缀链接进行数据交互
 
 ### 首页（/）按下拉菜单
-- 总信息表单（/all）
-- 全球富豪排名前二十信息详细（http://dataweb.pythonanywhere.com//forbes？limit=20）
-- 全球富豪排名前一百信息详细（http://dataweb.pythonanywhere.com//forbes？limit=100）
-- 全球富豪排名前二十所在地分布（http://dataweb.pythonanywhere.com//map20）
-- 全球富豪排名前一百所在地分布（http://dataweb.pythonanywhere.com//map100）
-- 全球所有富豪所在地分布（http://dataweb.pythonanywhere.com//allmap）
+- 总信息表单（http://dataweb.pythonanywhere.com/all）
+- 全球富豪排名前二十信息详细（http://dataweb.pythonanywhere.com/forbes？limit=20）
+- 全球富豪排名前一百信息详细（http://dataweb.pythonanywhere.com/forbes？limit=100）
+- 全球富豪排名前二十所在地分布（http://dataweb.pythonanywhere.com/map20）
+- 全球富豪排名前一百所在地分布（http://dataweb.pythonanywhere.com/map100）
+- 全球所有富豪所在地分布（http://dataweb.pythonanywhere.com/allmap）
