@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5987a2d3055b4914a80659ddf2d9fc16 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_5987a2d3055b4914a80659ddf2d9fc16" ></div>
+        
+</body>
+<script>    
+    
+            var map_5987a2d3055b4914a80659ddf2d9fc16 = L.map(
+                "map_5987a2d3055b4914a80659ddf2d9fc16",
+                {
+                    center: [39.92, 116.46],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fee4dff59c6f488fa0657035b2d45d8b = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5987a2d3055b4914a80659ddf2d9fc16);
+        
+    
+            var marker_cluster_5267806e6d9d4c528cf199f0ce3928df = L.markerClusterGroup(
+                {}
+            );
+            map_5987a2d3055b4914a80659ddf2d9fc16.addLayer(marker_cluster_5267806e6d9d4c528cf199f0ce3928df);
+        
+    
+            var marker_f1de8de1ed4b49979c9c942e09d6a7ac = L.marker(
+                [40.07, 45.04],
+                {}
+            ).addTo(marker_cluster_5267806e6d9d4c528cf199f0ce3928df);
+        
+    
+        var popup_e70bd5e49e8c4848a73262e3aae30c57 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_620b33df533c4c048a43ec6f8901c377 = $(`<div id="html_620b33df533c4c048a43ec6f8901c377" style="width: 100.0%; height: 100.0%;">杰夫·贝索斯</div>`)[0];
+            popup_e70bd5e49e8c4848a73262e3aae30c57.setContent(html_620b33df533c4c048a43ec6f8901c377);
+        
+
+        marker_f1de8de1ed4b49979c9c942e09d6a7ac.bindPopup(popup_e70bd5e49e8c4848a73262e3aae30c57)
+        ;
+
+        
+    
+    
+            var marker_da10434f99624d2bbafc10841cb9a8b0 = L.marker(
+                [40.07, 45.04],
+                {}
+            ).addTo(marker_cluster_5267806e6d9d4c528cf199f0ce3928df);
+        
+    
+        var popup_ec0b6be974774316a6070d384c75f856 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36dd2120a06c40a29193de5cf555d3bd = $(`<div id="html_36dd2120a06c40a29193de5cf555d3bd" style="width: 100.0%; height: 100.0%;">比尔·盖茨</div>`)[0];
+            popup_ec0b6be974774316a6070d384c75f856.setContent(html_36dd2120a06c40a29193de5cf555d3bd);
+        
+
+        marker_da10434f99624d2bbafc10841cb9a8b0.bindPopup(popup_ec0b6be974774316a6070d384c75f856)
+        ;
+
+        
+    
+    
+            var marker_3ce82e2c4e8141e49ecf567f05c306ae = L.marker(
+                [40.07, 45.04],
+                {}
+            ).addTo(marker_cluster_5267806e6d9d4c528cf199f0ce3928df);
+        
+    
+        var popup_c84e218760444c64beffc0f63c1244b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b198f9a89e054c0f86cca58bd37fa879 = $(`<div id="html_b198f9a89e054c0f86cca58bd37fa879" style="width: 100.0%; height: 100.0%;">沃伦·巴菲特</div>`)[0];
+            popup_c84e218760444c64beffc0f63c1244b1.setContent(html_b198f9a89e054c0f86cca58bd37fa879);
+        
+
+        marker_3ce82e2c4e8141e49ecf567f05c306ae.bindPopup(popup_c84e218760444c64beffc0f63c1244b1)
+        ;
+
+        
+    
+    
+            var marker_26b96cb3f7df4096970fde4e6dfc74c9 = L.marker(
+                [46.23, 2.21],
+                {}
+            ).addTo(marker_cluster_5267806e6d9d4c528cf199f0ce3928df);
+        
+    
+        var popup_4ea7b8ca31144e7e9c3fe4584ffb2b66 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ecbf7de0c0840fbbcacb01d2b732881 = $(`<div id="html_9ecbf7de0c0840fbbcacb01d2b732881" style="width: 100.0%; height: 100.0%;">伯纳德·阿诺特</div>`)[0];
+            popup_4ea7b8ca31144e7e9c3fe4584ffb2b66.setContent(html_9ecbf7de0c0840fbbcacb01d2b732881);
+        
+
+        marker_26b96cb3f7df4096970fde4e6dfc74c9.bindPopup(popup_4ea7b8ca31144e7e9c3fe4584ffb2b66)
+        ;
+
+        
+    
+    
+            var marker_92c66f70c71f4fa1807ae046b810b2f4 = L.marker(
+                [23.63, -102.55],
+                {}
+            ).addTo(marker_cluster_5267806e6d9d4c528cf199f0ce3928df);
+        
+    
+        var popup_573d6ebb90cf400abd5da5cab0fbe275 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1485aa785eec40059d0f34ddd616f7cd = $(`<div id="html_1485aa785eec40059d0f34ddd616f7cd" style="width: 100.0%; height: 100.0%;">卡洛斯·斯利姆·埃卢</div>`)[0];
+            popup_573d6ebb90cf400abd5da5cab0fbe275.setContent(html_1485aa785eec40059d0f34ddd616f7cd);
+        
+
+        marker_92c66f70c71f4fa1807ae046b810b2f4.bindPopup(popup_573d6ebb90cf400abd5da5cab0fbe275)
+        ;
+
+        
+    
+    
+            var marker_441dccf503cc4856b517465b978755f3 = L.marker(
+                [40.46, -3.75],
+                {}
+            ).addTo(marker_cluster_5267806e6d9d4c528cf199f0ce3928df);
+        
+    
+        var popup_c3c1cabbd45848e79685725d08265f0f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_374666f3016d48ed88290b75e2beda73 = $(`<div id="html_374666f3016d48ed88290b75e2beda73" style="width: 100.0%; height: 100.0%;">阿曼西奥·奥特加</div>`)[0];
+            popup_c3c1cabbd45848e79685725d08265f0f.setContent(html_374666f3016d48ed88290b75e2beda73);
+        
+
+        marker_441dccf503cc4856b517465b978755f3.bindPopup(popup_c3c1cabbd45848e79685725d08265f0f)
+        ;
+
+        
+    
+    
+            var marker_b563dd2636804a869d4e2c94c0a272df = L.marker(
+                [40.07, 45.04],
+                {}
+            ).addTo(marker_cluster_5267806e6d9d4c528cf199f0ce3928df);
+        
+    
+        var popup_4ac54665f5a34f71bf22e19e52e5a036 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83f795187e1642d1be4af8479a7b1f39 = $(`<div id="html_83f795187e1642d1be4af8479a7b1f39" style="width: 100.0%; height: 100.0%;">拉里·埃里森</div>`)[0];
+            popup_4ac54665f5a34f71bf22e19e52e5a036.setContent(html_83f795187e1642d1be4af8479a7b1f39);
+        
+
+        marker_b563dd2636804a869d4e2c94c0a272df.bindPopup(popup_4ac54665f5a34f71bf22e19e52e5a036)
+        ;
+
+        
+    
+    
+            var marker_df83012748df4511828d8cdefde40f53 = L.marker(
+                [40.07, 45.04],
+                {}
+            ).addTo(marker_cluster_5267806e6d9d4c528cf199f0ce3928df);
+        
+    
+        var popup_7c4bc2a6e4e24a1b987c7c2b37b4b2e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15a42bf1a9ca46da88f10de1406cc430 = $(`<div id="html_15a42bf1a9ca46da88f10de1406cc430" style="width: 100.0%; height: 100.0%;">马克·扎克伯格</div>`)[0];
+            popup_7c4bc2a6e4e24a1b987c7c2b37b4b2e6.setContent(html_15a42bf1a9ca46da88f10de1406cc430);
+        
+
+        marker_df83012748df4511828d8cdefde40f53.bindPopup(popup_7c4bc2a6e4e24a1b987c7c2b37b4b2e6)
+        ;
+
+        
+    
+    
+            var marker_514a651d4dc641138798f828f35e4476 = L.marker(
+                [40.07, 45.04],
+                {}
+            ).addTo(marker_cluster_5267806e6d9d4c528cf199f0ce3928df);
+        
+    
+        var popup_7a9719a02b0e4a1699781f858f1f9a03 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_559bfeb1406542f5b673bd35a24e7133 = $(`<div id="html_559bfeb1406542f5b673bd35a24e7133" style="width: 100.0%; height: 100.0%;">迈克尔·布隆伯格</div>`)[0];
+            popup_7a9719a02b0e4a1699781f858f1f9a03.setContent(html_559bfeb1406542f5b673bd35a24e7133);
+        
+
+        marker_514a651d4dc641138798f828f35e4476.bindPopup(popup_7a9719a02b0e4a1699781f858f1f9a03)
+        ;
+
+        
+    
+    
+            var marker_ad8f7d1fa79647c6a9ecd4d5cacf1523 = L.marker(
+                [40.07, 45.04],
+                {}
+            ).addTo(marker_cluster_5267806e6d9d4c528cf199f0ce3928df);
+        
+    
+        var popup_82fddeb3c5db4684a7678bfe0cef8ec0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8494dff4f27443c49f98d820c8ac293e = $(`<div id="html_8494dff4f27443c49f98d820c8ac293e" style="width: 100.0%; height: 100.0%;">拉里·佩奇</div>`)[0];
+            popup_82fddeb3c5db4684a7678bfe0cef8ec0.setContent(html_8494dff4f27443c49f98d820c8ac293e);
+        
+
+        marker_ad8f7d1fa79647c6a9ecd4d5cacf1523.bindPopup(popup_82fddeb3c5db4684a7678bfe0cef8ec0)
+        ;
+
+        
+    
+    
+            var marker_84c0ec6f63ac4b91966c3baac1b99521 = L.marker(
+                [40.07, 45.04],
+                {}
+            ).addTo(marker_cluster_5267806e6d9d4c528cf199f0ce3928df);
+        
+    
+        var popup_e2dbfafeda194aae8e2dfc7638eb2c1e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a82f4f64d9948fca01760c732f40256 = $(`<div id="html_5a82f4f64d9948fca01760c732f40256" style="width: 100.0%; height: 100.0%;">查尔斯·科赫</div>`)[0];
+            popup_e2dbfafeda194aae8e2dfc7638eb2c1e.setContent(html_5a82f4f64d9948fca01760c732f40256);
+        
+
+        marker_84c0ec6f63ac4b91966c3baac1b99521.bindPopup(popup_e2dbfafeda194aae8e2dfc7638eb2c1e)
+        ;
+
+        
+    
+    
+            var marker_80278857a5f14222b0acf58596aae21f = L.marker(
+                [40.07, 45.04],
+                {}
+            ).addTo(marker_cluster_5267806e6d9d4c528cf199f0ce3928df);
+        
+    
+        var popup_011c0cecdbd848258f0273aad66ec849 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ff4a136e5494ecaa1f4e5eb47c07de1 = $(`<div id="html_1ff4a136e5494ecaa1f4e5eb47c07de1" style="width: 100.0%; height: 100.0%;">大卫·科赫</div>`)[0];
+            popup_011c0cecdbd848258f0273aad66ec849.setContent(html_1ff4a136e5494ecaa1f4e5eb47c07de1);
+        
+
+        marker_80278857a5f14222b0acf58596aae21f.bindPopup(popup_011c0cecdbd848258f0273aad66ec849)
+        ;
+
+        
+    
+    
+            var marker_0ee1fb9ed9ef4760864a6a2c16875c6d = L.marker(
+                [20.59, 78.96],
+                {}
+            ).addTo(marker_cluster_5267806e6d9d4c528cf199f0ce3928df);
+        
+    
+        var popup_9e2b6d7031f8492a80c6c4d041cd01d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b339f131a00d4cd09d05a6e32e50cbdb = $(`<div id="html_b339f131a00d4cd09d05a6e32e50cbdb" style="width: 100.0%; height: 100.0%;">穆克什·安巴尼</div>`)[0];
+            popup_9e2b6d7031f8492a80c6c4d041cd01d5.setContent(html_b339f131a00d4cd09d05a6e32e50cbdb);
+        
+
+        marker_0ee1fb9ed9ef4760864a6a2c16875c6d.bindPopup(popup_9e2b6d7031f8492a80c6c4d041cd01d5)
+        ;
+
+        
+    
+    
+            var marker_9a33e5dfddf14fbca774f52d770c12ed = L.marker(
+                [40.07, 45.04],
+                {}
+            ).addTo(marker_cluster_5267806e6d9d4c528cf199f0ce3928df);
+        
+    
+        var popup_da30548fbcd44ae88b2c8c8b2f2226ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c0d4ea1dc7042029feed2ffaa1dcea5 = $(`<div id="html_5c0d4ea1dc7042029feed2ffaa1dcea5" style="width: 100.0%; height: 100.0%;">谢尔盖·布林</div>`)[0];
+            popup_da30548fbcd44ae88b2c8c8b2f2226ab.setContent(html_5c0d4ea1dc7042029feed2ffaa1dcea5);
+        
+
+        marker_9a33e5dfddf14fbca774f52d770c12ed.bindPopup(popup_da30548fbcd44ae88b2c8c8b2f2226ab)
+        ;
+
+        
+    
+    
+            var marker_5fa1dd89d69043f68796c4e92def524a = L.marker(
+                [46.23, 2.21],
+                {}
+            ).addTo(marker_cluster_5267806e6d9d4c528cf199f0ce3928df);
+        
+    
+        var popup_41ad9ef7f9af4a2bb7215aefaf1ef838 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6510b21a5ec64fb5a5adc03d2e5c43a7 = $(`<div id="html_6510b21a5ec64fb5a5adc03d2e5c43a7" style="width: 100.0%; height: 100.0%;">弗朗索瓦丝·贝当古·迈耶斯</div>`)[0];
+            popup_41ad9ef7f9af4a2bb7215aefaf1ef838.setContent(html_6510b21a5ec64fb5a5adc03d2e5c43a7);
+        
+
+        marker_5fa1dd89d69043f68796c4e92def524a.bindPopup(popup_41ad9ef7f9af4a2bb7215aefaf1ef838)
+        ;
+
+        
+    
+    
+            var marker_57221a0a790c4027a14fa155e9a3a983 = L.marker(
+                [40.07, 45.04],
+                {}
+            ).addTo(marker_cluster_5267806e6d9d4c528cf199f0ce3928df);
+        
+    
+        var popup_511e0fa85f3543caae36c3a64157e3f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d067c27cbb984bb19880f3d4d0d71606 = $(`<div id="html_d067c27cbb984bb19880f3d4d0d71606" style="width: 100.0%; height: 100.0%;">吉姆·沃尔顿</div>`)[0];
+            popup_511e0fa85f3543caae36c3a64157e3f4.setContent(html_d067c27cbb984bb19880f3d4d0d71606);
+        
+
+        marker_57221a0a790c4027a14fa155e9a3a983.bindPopup(popup_511e0fa85f3543caae36c3a64157e3f4)
+        ;
+
+        
+    
+    
+            var marker_09d9d3317d9d467d8d6c291e688a2514 = L.marker(
+                [40.07, 45.04],
+                {}
+            ).addTo(marker_cluster_5267806e6d9d4c528cf199f0ce3928df);
+        
+    
+        var popup_14842fdcdd5f42b6bb27c048aa6efeb5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46156871a3774616a2889f2aa00c2ece = $(`<div id="html_46156871a3774616a2889f2aa00c2ece" style="width: 100.0%; height: 100.0%;">艾丽斯·沃尔顿</div>`)[0];
+            popup_14842fdcdd5f42b6bb27c048aa6efeb5.setContent(html_46156871a3774616a2889f2aa00c2ece);
+        
+
+        marker_09d9d3317d9d467d8d6c291e688a2514.bindPopup(popup_14842fdcdd5f42b6bb27c048aa6efeb5)
+        ;
+
+        
+    
+    
+            var marker_450699c36ed64a1e8c9df70710f86c39 = L.marker(
+                [40.07, 45.04],
+                {}
+            ).addTo(marker_cluster_5267806e6d9d4c528cf199f0ce3928df);
+        
+    
+        var popup_b3eda7180ab641538c8beac0bd0d46d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a782be688e94250b385d7ac08a97e6d = $(`<div id="html_8a782be688e94250b385d7ac08a97e6d" style="width: 100.0%; height: 100.0%;">罗伯·沃尔顿</div>`)[0];
+            popup_b3eda7180ab641538c8beac0bd0d46d2.setContent(html_8a782be688e94250b385d7ac08a97e6d);
+        
+
+        marker_450699c36ed64a1e8c9df70710f86c39.bindPopup(popup_b3eda7180ab641538c8beac0bd0d46d2)
+        ;
+
+        
+    
+    
+            var marker_d6c3c73712254493a55913cd805407e9 = L.marker(
+                [40.07, 45.04],
+                {}
+            ).addTo(marker_cluster_5267806e6d9d4c528cf199f0ce3928df);
+        
+    
+        var popup_db9a5df2fd5c49df9ad6b6fb06caafd3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a27d124e56ee449a9b8a83db30336131 = $(`<div id="html_a27d124e56ee449a9b8a83db30336131" style="width: 100.0%; height: 100.0%;">史蒂夫·鲍尔默</div>`)[0];
+            popup_db9a5df2fd5c49df9ad6b6fb06caafd3.setContent(html_a27d124e56ee449a9b8a83db30336131);
+        
+
+        marker_d6c3c73712254493a55913cd805407e9.bindPopup(popup_db9a5df2fd5c49df9ad6b6fb06caafd3)
+        ;
+
+        
+    
+    
+            var marker_f5e5619f68ed460a86ab75cff90ac2ef = L.marker(
+                [35.86, 104.2],
+                {}
+            ).addTo(marker_cluster_5267806e6d9d4c528cf199f0ce3928df);
+        
+    
+        var popup_28e2911642bc42078ca0eb81b18f78dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0459372b04754ae4860586592b6c13f4 = $(`<div id="html_0459372b04754ae4860586592b6c13f4" style="width: 100.0%; height: 100.0%;">马化腾</div>`)[0];
+            popup_28e2911642bc42078ca0eb81b18f78dc.setContent(html_0459372b04754ae4860586592b6c13f4);
+        
+
+        marker_f5e5619f68ed460a86ab75cff90ac2ef.bindPopup(popup_28e2911642bc42078ca0eb81b18f78dc)
+        ;
+
+        
+    
+</script>

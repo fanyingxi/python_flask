@@ -1,0 +1,28 @@
+<!--
+ * @Date: 2020-01-04 23:12:01
+ * @LastEditTime : 2020-01-05 01:00:52
+ * @Description: file content
+ -->
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8">
+  <title>标题</title>
+</head>
+
+<body>
+  <form method="GET" action="/">
+    <p><input value='返回' type='SUBMIT'></p>
+  </form>
+  {{ the_plot_all|safe }}
+  <div style="width:100%">
+    <div style="width:50%;float:left;margin-right:15px">{{ the_res|safe }}</div>
+    <div style="width:50%;float:left"></div>{{kind_data|safe }}
+  </div>
+  </div>
+
+
+</body>
+
+</html>

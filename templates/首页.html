@@ -1,0 +1,47 @@
+<!--
+ * @Date: 2020-01-04 23:12:01
+ * @LastEditTime : 2020-01-04 23:54:29
+ * @Description: file content
+ -->
+{% extends 'base.html' %}
+
+{% block body %}
+
+<div xmlns="http://www.w3.org/1999/html">
+  <center>
+    <header>全球富豪排行榜</header>
+    </br>
+    </br>
+    </br>
+    </br>
+    <select autofocus method='POST' onchange="window.location=this.value; width='30'">
+      <option>-请点击进行选择-</option>
+      <option value="/all">总信息表单</option>
+      <option value="/forbes?limit=20">全球富豪排名前二十信息详细</option>
+      <option value="/forbes?limit=100">全球富豪排名前一百信息详细</option>
+      <option value="/map20">全球富豪排名前二十所在地分布</option>
+      <option value="/map100">全球富豪排名前一百所在地分布</option>
+      <option value="/allmap">全球所有富豪所在地分布</option>
+    </select>
+      <body>
+      <h1>数据故事</h1>
+      </br>
+      </br>
+      <p align="left"> 1. 在世界前二十的富豪里，所在行业显示最多的是沃尔玛，沃尔玛属于零售业，有三位富豪正从事着，但其实谷歌、微软、社交媒体、Facebook和软件都是属于互联网行业的，这样看起来在前二十的富豪里，互联网行业是占大头的。</p>
+      <p align="left">2. 在世界前一百的富豪里，算起来互联网还是占了大头，但是房地产占大头的势头也初现了。
+      <p align="left">3.在世界的全部富豪里，房地产是龙头行业了。
+      <p align="left">4. 在世界前二十的富豪里，几乎有四分之三是美国人；
+      <p align="left">5. 前一百的富豪里，仍然是美国人最多；中国人是第二多，算起来有17个，可能是因为中国人口多，且香港人占了其中的三分之一，香港不愧是香港是亚洲乃至全世界最发达的城市之一。
+      <p align="left">6. 在全部的富豪里，美国有600多位，中国有400多位，加起来有1000多位，已占了富豪榜的半数人了。</p>
+      </br>
+      </br>
+      <h2 align="left">我们的国家已经有很多人成功地致富了，并且富上了世界富豪榜，我们不需要妄自菲薄，我们的国家也可以给我们带来很好的前景。</h2>
+      <h2 align="left">世界顶尖的富豪多为从事互联网行业，说明互联网行业的发展前景还大有可为；房地产行业是最多富豪从事的行业，随着房地产行业的兴盛，地越来越少，价值也越来越高，房地产行业也还是我们的阳关大道。</>
+      </body>
+  </center>
+</div>
+    </br>
+    </br>
+    </br>
+    </br>
+{% endblock %}

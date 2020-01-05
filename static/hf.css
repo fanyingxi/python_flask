@@ -1,0 +1,133 @@
+body {
+  font-family:      Verdana, Geneva, Arial, sans-serif;
+  font-size:        medium;
+	background-size:      100% 100%;
+	background-attachment: fixed;
+	margin-top:       15%;
+	margin-bottom:    15%;
+	margin-left:      15%;
+	margin-right:     15%;
+}
+a {
+  text-decoration:  none; 
+  font-weight:      600; 
+}
+a:hover {
+  text-decoration:  underline;
+}
+a img {
+  border:           0;
+}
+h2 {
+  font-size:        150%;
+}
+#box
+{
+	top:0;}
+ul
+{
+list-style-type:none;
+margin:auto;
+padding:0px 100px;
+margin-top:-180px;
+padding-bottom:50px;
+display: flex;
+justify-content: space-between;
+}
+li
+{
+display:inline-flex;
+}
+a:link,a:visited
+{
+font-weight:bold;
+color:#FFFFFF;
+background-color:#458B74;
+text-align:center;
+padding:6px;
+text-decoration:none;
+text-transform:uppercase;
+}
+a:hover,a:active
+{
+background-color:#20B2AA;
+}
+		
+		
+
+table {
+  margin-left:      20px;
+  margin-right:     20px;
+  caption-side:     bottom;
+  border-collapse:  collapse;
+}
+td, th {
+  padding:          5px;
+  text-align:       left;
+}
+select {
+	width: 300px;
+	height: 100%;
+	border: solid 1px rosybrown;
+	padding-right: 14px;
+	position: top;
+}
+
+header {
+	top: 20px;
+	font-size: 400%;
+    color:    black;
+    font-family: FZShuTi;}
+
+.copyright {
+  font-size:        75%;
+  font-style:       italic;
+}
+.slogan {
+  font-size:        75%;
+  font-style:       italic;
+}
+.confirmentry {
+  font-weight:      600; 
+}
+
+/*** Tables ***/
+
+table {
+font-size:          1em;
+background-color:   #fafcff;
+border:             1px solid #909090;
+color:              #2a2a2a;
+padding:            5px 5px 2px;
+border-collapse:    collapse;
+}
+
+td, th {
+border:             thin dotted gray;
+}
+
+
+/*** Inputs ***/
+input[type=text] {
+  font-size:        18px;
+  width:            300px;
+  height:           20px;
+  position: initial;
+}
+input[type=submit] {
+        width: 100px;
+        height: 35px;
+        background: #388E8E;
+        color: white;
+        text-align: center;
+        line-height: 32px;
+        cursor: pointer;
+		border-radius:5px;
+		position: relative;
+		transform:rotate(360deg);
+        font-size: 16.5px;
+		font-family: FZShuTi;
+}
+select {
+  font-size:        125%;
+}
