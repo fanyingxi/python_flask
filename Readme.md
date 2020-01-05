@@ -3,6 +3,19 @@
 ## 代码Github URL：https://github.com/fanyingxi/python_flask
 ## pythonanywhere URL：http://dataweb.pythonanywhere.com/
 
+### 数据传输描述
+除首页外共能跳转六个页面，由一个下来菜单进行交互跳转
+csv文件一个，static文件夹存放css文件，template存放前端页面呈现的html文件
+
+### 首页（/）按下拉菜单
+- 总信息表单 http://dataweb.pythonanywhere.com/all
+- 全球富豪排名前二十信息详细 http://dataweb.pythonanywhere.com/forbes?limit=20
+- 全球富豪排名前一百信息详细 http://dataweb.pythonanywhere.com/forbes?limit=100
+- 全球富豪排名前二十所在地分布 http://dataweb.pythonanywhere.com/map20
+- 全球富豪排名前一百所在地分布 http://dataweb.pythonanywhere.com/map100
+- 全球所有富豪所在地分布 http://dataweb.pythonanywhere.com/allmap
+
+
 ### 将17级同学给的全球富豪榜排名数据进行清洗
 * 运用了字典循环，分割、切片操作等将全球富豪行业与国籍前二十和前一百占比做成图表展示
 * 运用了条件判断、推导式进行数据清理和排序
@@ -19,10 +32,3 @@
 * 用@app.route进行表和html链接
 * 通过网址后缀链接进行数据交互
 
-### 首页（/）按下拉菜单
-- 总信息表单 http://dataweb.pythonanywhere.com/all
-- 全球富豪排名前二十信息详细 http://dataweb.pythonanywhere.com/forbes?limit=20
-- 全球富豪排名前一百信息详细 http://dataweb.pythonanywhere.com/forbes?limit=100
-- 全球富豪排名前二十所在地分布 http://dataweb.pythonanywhere.com/map20
-- 全球富豪排名前一百所在地分布 http://dataweb.pythonanywhere.com/map100
-- 全球所有富豪所在地分布 http://dataweb.pythonanywhere.com/allmap
