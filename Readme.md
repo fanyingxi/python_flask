@@ -1,7 +1,7 @@
 
 
 ## 代码Github URL：https://github.com/fanyingxi/python_flask
-## pythonanywhere URL：
+## pythonanywhere URL：http://dataweb.pythonanywhere.com/
 
 ### 将17级同学给的全球富豪榜排名数据进行清洗
 * 运用了字典循环，分割、切片操作等将全球富豪行业与国籍前二十和前一百占比做成图表展示
@@ -21,8 +21,8 @@
 
 ### 首页（/）按下拉菜单
 - 总信息表单（/all）
-- 全球富豪排名前二十信息详细（/forbes？limit=20）
-- 全球富豪排名前一百信息详细（/forbes？limit=100）
-- 全球富豪排名前二十所在地分布（/map20）
-- 全球富豪排名前一百所在地分布（/map100）
-- 全球所有富豪所在地分布（/allmap）
+- 全球富豪排名前二十信息详细（http://dataweb.pythonanywhere.com//forbes？limit=20）
+- 全球富豪排名前一百信息详细（http://dataweb.pythonanywhere.com//forbes？limit=100）
+- 全球富豪排名前二十所在地分布（http://dataweb.pythonanywhere.com//map20）
+- 全球富豪排名前一百所在地分布（http://dataweb.pythonanywhere.com//map100）
+- 全球所有富豪所在地分布（http://dataweb.pythonanywhere.com//allmap）
