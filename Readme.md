@@ -4,10 +4,10 @@
 ## pythonanywhere URL：http://dataweb.pythonanywhere.com/
 
 ### 数据传输描述
-除首页外共能跳转六个页面，由一个下来菜单进行交互跳转
-csv文件一个，static文件夹存放css文件，template存放前端页面呈现的html文件
+- 除首页外共能跳转六个页面，由一个下拉菜单进行交互跳转
+- csv文件一个，static文件夹存放css文件，template存放前端页面呈现的html文件
 
-### 首页（/）按下拉菜单
+### 首页（/）按下拉菜单显示页面如下
 - 总信息表单 http://dataweb.pythonanywhere.com/all
 - 全球富豪排名前二十信息详细 http://dataweb.pythonanywhere.com/forbes?limit=20
 - 全球富豪排名前一百信息详细 http://dataweb.pythonanywhere.com/forbes?limit=100
