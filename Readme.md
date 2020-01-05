@@ -1,6 +1,6 @@
 
 
-## 代码Github URL：
+## 代码Github URL：https://github.com/fanyingxi/python_flask
 ## pythonanywhere URL：
 
 ### 将17级同学给的全球富豪榜排名数据进行清洗
